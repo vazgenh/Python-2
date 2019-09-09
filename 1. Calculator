@@ -1,0 +1,15 @@
+x = float(input())
+y = float(input())
+
+operation = input()
+
+if (operation == "+"):
+    output = x + y
+elif (operation == "-"):
+    output = x - y
+elif (output == "*"):
+    output = x*y
+else:
+    output = x/y
+	
+print ("output == ", output)
