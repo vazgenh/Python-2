@@ -1,15 +1,16 @@
-x = float(input())
-y = float(input())
+x=int(input())
+y=int(input())
 
-operation = input()
+operation=input()
 
-if (operation == "+"):
-    output = x + y
-elif (operation == "-"):
-    output = x - y
-elif (output == "*"):
+if operation=="+":
+    output = x+y
+elif operation=="-":
+    output = x-y
+elif operation == "*":
     output = x*y
-else:
+elif operation == "/":
     output = x/y
-	
-print ("output == ", output)
+else:
+    output = "Incorrect operation"
+print("output=",output)
