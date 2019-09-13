@@ -1,0 +1,5 @@
+l = list(range(0,20000))
+for j in range(2,len(l)):
+    if l[j] != '':
+        for i in range(j,int(len(l)/j)):
+           l[i*j] = ''
